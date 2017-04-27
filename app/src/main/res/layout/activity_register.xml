@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성명        :"
+        android:textSize="20dp"
+        android:layout_marginRight="12dp" />
+
+    <TextView
+        android:id="@+id/getName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:textSize="20dp"
+        android:text="NONE"/>
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별        :"
+        android:textSize="20dp"
+        android:layout_below="@+id/name"
+        android:layout_marginRight="12dp" />
+
+    <TextView
+        android:id="@+id/getGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gender"
+        android:layout_alignBottom="@+id/gender"
+        android:textSize="20dp"
+        android:text="NONE"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수신여부 :"
+        android:textSize="20dp"
+        android:layout_below="@+id/gender"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/getContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/contact"
+        android:layout_alignBottom="@+id/contact"
+        android:textSize="20dp"
+        android:text="NONE"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_alignParentRight="true"
+        android:text="이전"/>
+
+
+</RelativeLayout>
